@@ -16,7 +16,7 @@ $idtl = $_REQUEST['idtl'];
             ?>
             <div class="danhgia1">
                 <?php
-                include "danhgia/danhgia.php";
+                //include "danhgia/danhgia.php";
                 ?>
             </div>
         </div>
@@ -27,7 +27,7 @@ $idtl = $_REQUEST['idtl'];
         </div>
 
         <?php
-        include 'binhluan.php';
+       //include 'binhluan.php';
         ?>
 
     </div>

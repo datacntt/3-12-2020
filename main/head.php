@@ -51,5 +51,5 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+    <link type="text/css" href="style.css" rel="stylesheet">
 </head>
