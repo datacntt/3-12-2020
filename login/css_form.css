@@ -1,0 +1,46 @@
+#body-color {
+    background-color: #BFBAE5;
+}
+
+#Sign-In {
+    margin: 100px auto;
+    border: 3px solid #a1a1a1;
+    padding: 9px 35px;
+    background: #0C7FB4;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 6px;
+}
+
+#button {
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background: #1f568b;
+    font-weight: bold;
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+#button:hover {
+    height: 40px;
+    background: #f1f1f1;
+    color: #333;
+}
+
+#button1 {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background: #1f568b;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+#button1:hover {
+    height: 40px;
+    background: #f1f1f1;
+    color: #333;
+}
