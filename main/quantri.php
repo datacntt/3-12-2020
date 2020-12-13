@@ -4,32 +4,9 @@ if ($_SESSION['username']=="" || $_SESSION['role']==2){
     header('Location: quantri.php ');
 }
 ?>
-<!DOCTYPE html>
-<html lang="vi">
 
-<head>
-    <meta charset="utf-8" />
-    <title>Kho tài liệu trực tuyến - Quản trị tài liệu</title>
-    <link href="images/icon.png" rel="shortcut icon">
-    <link type="text/css" href="style.css" rel="stylesheet">
-    <link type="text/css" href="demo.css" rel="stylesheet">
-    <style>
-        #menu ul.aaa li {
-            line-height: 41px;
-        }
-        .main{
-            width: 100%;
-            background-image: url('images/bgqt.jpg');
-            background-size: cover;
-        }
-        h4{
-            color: red;
-            font-size: 25px;
-            margin-top: 30px;
-        }
-    </style>
-    <script src="js\jssor.slider.min.js" type="text/javascript"></script>
-</head>
+
+<?php include "head.php" ?>
 
 <body style="background-color:white; margin-top:10px;">
 
@@ -107,6 +84,24 @@ if ($_SESSION['username']=="" || $_SESSION['role']==2){
         </div>
     </div>
     <br>
+
+    <link type="text/css" href="demo.css" rel="stylesheet">
+    <style>
+        #menu ul.aaa li {
+            line-height: 41px;
+        }
+        .main{
+            width: 100%;
+            background-image: url('images/bgqt.jpg');
+            background-size: cover;
+        }
+        h4{
+            color: red;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+    </style>
+    <script src="js\jssor.slider.min.js" type="text/javascript"></script>
 
     <?php include "footer.php" ?>
 

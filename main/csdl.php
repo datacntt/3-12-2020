@@ -1,7 +1,7 @@
 <?php
 function ketnoi()
 {
-	$conn = mysqli_connect('sql9.freemysqlhosting.net', 'sql9379286', 'admin123', 'sql9379286') or die("không thể kết nối tới database");
+	$conn = mysqli_connect('localhost', 'root', '', 'webdemo') or die("không thể kết nối tới database");
 	mysqli_query($conn, "SET NAMES 'UTF8'");
 	return $conn;
 }

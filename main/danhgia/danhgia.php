@@ -3,7 +3,7 @@
 
 <head>
     <link type="text/css" rel="stylesheet" href="danhgia/stylerate.css">
-    <!-- <script type="text/javascript" src="danhgia/jquery.min.js"></script> -->
+    <script type="text/javascript" src="danhgia/jquery.min.js"></script>
 </head>
 
 <body>
