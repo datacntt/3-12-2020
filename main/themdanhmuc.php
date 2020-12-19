@@ -21,7 +21,7 @@ if ($_SESSION['username'] == "" || $_SESSION['role'] == 2) {
                 </tr>
                 <tr>
                     <td>Đường dẫn hình</td>
-                    <td><input type='file' name='path' style='width: 270px; height: 20px; border-radius: 5px; background-color:white;'></td>
+                    <td><input type='file' name='path' style='width: 280px; height: 25px; border-radius: 5px; background-color:white;'></td>
                 </tr>
             </table>
             <input id='nuttdm' type='submit' name='them' value='Thêm'>
