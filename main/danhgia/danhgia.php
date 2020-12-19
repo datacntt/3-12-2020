@@ -42,7 +42,7 @@
         }
         ?>
 
-        <h6 style="margin:-20px 0px;width:355px ;font-size:16px; text-align:center;visibility:hidden; padding-left: 212px;margin-left: -33px;" id='sosao'></h6>
+        <h6 style="margin:-20px 0px;width:565px; ;font-size:16px; text-align:center;visibility:hidden; padding-left: 212px;margin-left: -33px;" id='sosao'></h6>
     </div>
 
     <script>

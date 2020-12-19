@@ -61,7 +61,7 @@
 
                         <?php
                         if ($_SESSION['username'] == "") {
-                            echo "<a href='./login/login.php' class='nav-link'>Đăng nhập</a>";
+                            echo "<a href='./login_register/login.php' class='nav-link'>Đăng nhập</a>";
                         } else {
                             echo "<a href='logout.php' class='nav-link'>Đăng xuất</a>";
                         }
@@ -128,10 +128,10 @@
                     <div class="contents text-center">
                         <h2 class="head-title wow fadeInUp">KHO TÀI LIỆU TRỰC TUYẾN</h2>
                         <p class="fadeInUp  wow" data-wow-delay="0.2s">Chia sẻ kiếm thức đến với mọi người</p>
-                        <form>
+                        <form method="get" action="timkiem.php">
                             <div class="subscribe">
-                                <input class="form-control" name="EMAIL" placeholder="Tài liệu bạn muốn....." required="" type="email">
-                                <button class="btn btn-common" type="submit">tim kiem</button>
+                                <input class="form-control" placeholder="Tài liệu bạn muốn....." required="" type="text" name="s" id="s">
+                                <button class="btn btn-common" type="submit">TÌM KIẾM</button>
                             </div>
                         </form>
                     </div>

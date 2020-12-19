@@ -668,6 +668,7 @@ div.main {
     height: 400px;
     overflow: auto;
     background: white;
+    margin-top:100px;
 }
 
 /*css dowload*/

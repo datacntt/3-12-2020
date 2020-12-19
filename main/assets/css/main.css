@@ -1783,6 +1783,7 @@ textarea {
   position: relative;
   height: 52px;
   border: 1px solid #ED5437;
+  padding-left:20px;
 }
 
 .subscribe .btn {
@@ -1792,6 +1793,7 @@ textarea {
   top: 0px;
   right: 0px;
   border-bottom-left-radius: 0;
+ 
 }
 
 .error-content {

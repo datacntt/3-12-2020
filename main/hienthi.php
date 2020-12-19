@@ -14,9 +14,9 @@ $idtl = $_REQUEST['idtl'];
             <?php
             selecttailieu($_REQUEST['idtl']);
             ?>
-            <div class="danhgia1">
+            <div class="danhgia">
                 <?php
-                //include "danhgia/danhgia.php";
+                include "danhgia/danhgia.php";
                 ?>
             </div>
         </div>
@@ -27,7 +27,7 @@ $idtl = $_REQUEST['idtl'];
         </div>
 
         <?php
-       //include 'binhluan.php';
+       include 'binhluan.php';
         ?>
 
     </div>
