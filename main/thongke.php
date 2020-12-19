@@ -42,7 +42,7 @@ if ($_SESSION['username']=="" || $_SESSION['role']==2){
                 <tr>
                     <td colspan=2>
                         <input type="submit" name='btnthongke' value='Thống kê' style='background-color:#3889ec; margin-left: 16px; 
-		margin-top: 20px; height: 29px; width: 81px; cursor: pointer;  border: 2px solid #8eb2de;'>
+		margin-top: 0px; height: 29px; width: 81px; cursor: pointer;  border: 2px solid #8eb2de;'>
                     </td>
                 </tr>
             </form>

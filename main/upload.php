@@ -35,7 +35,7 @@ if ($_SESSION['username'] == "") {
                     </tr>
                 </table>
             </div>
-            <input id="up" class="btn btn-lg btn-primary btn-block" type="submit" name="upload" value='Upload' style='background-color:#3889ec; margin-left: 206px; margin-top: 20px;height: 27px;width: 74px;    border: 2px solid #8eb2de;'>
+            <input id="up" class="btn btn-lg btn-primary btn-block" type="submit" name="upload" value='Upload' style='background-color:#3889ec; margin-left: 206px; margin-top: -12px;height: 27px;width: 74px;    border: 2px solid #8eb2de;'>
             <input id="huy" type="submit" name="back" value='Back' style='background-color:#3889ec; margin-left: 10px; margin-top: 20px;height: 27px;width: 74px;    border: 2px solid #8eb2de;'>
         </form>
     </div>
