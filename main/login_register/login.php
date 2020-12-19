@@ -118,7 +118,7 @@ if (isset($_POST["submit_dk"])) {
     <div class="forms-container">
       <div class="signin-signup">
         <form action="#" class="sign-in-form" method="post">
-          <h2 class="title">Sign in</h2>
+          <h2 class="title">ĐĂNG NHẬP</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
             <input type="text" placeholder="Username" name="username" />
@@ -127,7 +127,7 @@ if (isset($_POST["submit_dk"])) {
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" name="loginPassword" />
           </div>
-          <input type="submit" value="Login" class="btn solid" name="submit_dn" />
+          <input type="submit" value="ĐĂNG NHẬP" class="btn solid" name="submit_dn" />
           <p class="social-text">Hoặc Đăng Nhập</p>
           <div class="social-media">
             <a href="#" class="social-icon">
@@ -186,7 +186,7 @@ if (isset($_POST["submit_dk"])) {
             Bạn đã có tài khoảng chưa ? nếu chưa thì hãy đăng ký ngay bên dưới để trải nghiệm website thất tốt !
           </p>
           <button class="btn transparent" id="sign-up-btn">
-            Sign up
+            ĐĂNG KÝ
           </button>
         </div>
         <img src="img/log.svg" class="image" alt="" />
@@ -198,7 +198,7 @@ if (isset($_POST["submit_dk"])) {
             Bạn đã có tài khoảng rồi hãy đăng nhập ngay bên dưới !
           </p>
           <button class="btn transparent" id="sign-in-btn">
-            Sign in
+            ĐĂNG NHẬP
           </button>
         </div>
         <img src="img/register.svg" class="image" alt="" />
