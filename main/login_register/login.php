@@ -145,7 +145,7 @@ if (isset($_POST["submit_dk"])) {
           </div>
         </form>
         <form action="#" class="sign-up-form" method="POST">
-          <h2 class="title">Sign up</h2>
+          <h2 class="title">ĐĂNG NHẬP</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
             <input type="text" placeholder="Username" name="username" />
